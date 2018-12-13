@@ -31,6 +31,16 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="constantes.h" />
+		<Unit filename="estruturas.h" />
+		<Unit filename="funcoes_auxiliares.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcoes_auxiliares.h" />
+		<Unit filename="funcoes_bicicletas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcoes_bicicletas.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
