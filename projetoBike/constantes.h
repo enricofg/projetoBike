@@ -1,8 +1,0 @@
-#ifndef CONSTANTES_H_INCLUDED
-#define CONSTANTES_H_INCLUDED
-
-#define BIKE 15
-#define USER 50
-#define MAX_STRING 30
-
-#endif // CONSTANTES_H_INCLUDED
