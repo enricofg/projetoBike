@@ -14,6 +14,7 @@ APÓS chegar ao campus destino, o usuário devolve a bicicleta.
 
 	->15 Bicicletas:
 		.designação única (ID da bicicleta automático) -> função de geração automática de ID de Bicicleta
+		.nome
 		.modelo
 		.status, que pode ser 1-disponível, 2-emprestada ou 3-danificada
 		.campus que se localiza(1,2,5,3)
