@@ -1,7 +1,7 @@
 # projetoBike
 Sistema de gerenciamento de aluguer de bicicletas para o IPL para a cadeira de Prog. I
 
--Resumo:
+# Resumo:
 Programa em C para gerir uso de bicicletas entre os campi do IPL.
 Os campi referidos são: as Residências, os Campus 1, Campus 2 e Campus 5.
 Quando um usuário quiser efetuar o empréstimo de uma bicicleta, o mesmo 
@@ -10,7 +10,7 @@ SE houver bicicletas disponíveis no campus atual, o empréstimo será efetuado.
 SE NÃO houver, o usuário entrará em uma fila de espera.
 APÓS chegar ao campus destino, o usuário devolve a bicicleta.
 
--Elementos:
+# Elementos:
 
 	->15 Bicicletas:
 		.designação única (ID da bicicleta automático) -> função de geração automática de ID de Bicicleta
@@ -39,10 +39,10 @@ APÓS chegar ao campus destino, o usuário devolve a bicicleta.
 	->Lista de espera: vetor dinâmico que contém os pedidos de empréstimo em espera de uma bicicleta
 	
 	
--Algoritmo Geral:
+# Algoritmo Geral:
 	Apresentação de um menu onde pode-se (dividir em submenus):
-		Informações sobre: Usuários atuais					Empréstimos registrados
-						   Distância total já percorrida	Empréstimos em espera
+		- Informações sobre: Usuários atuais			- Empréstimos registrados
+		- Distância total já percorrida				- Empréstimos em espera
 		
 		
 		*1)Submenu - bicicletas:
@@ -107,8 +107,8 @@ APÓS chegar ao campus destino, o usuário devolve a bicicleta.
 		.Armazenar e ler todas as informações em ficheiros binários
 		
 		
-- Possíveis funcionalidades adicionais
-	.criação de senha (automaticamente gerada) para usuário, onde ele deve usá-la para identificar-se no momento de empréstimo
+# Possíveis funcionalidades adicionais
+	- Criação de senha (automaticamente gerada) para usuário, onde ele deve usá-la para identificar-se no momento de empréstimo
 	
 		
 		
