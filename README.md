@@ -1,5 +1,5 @@
 # projetoBike
-Sistema de gerenciamento de aluguer de bicicletas para o IPL para a cadeira de Prog. I
+Sistema de gerenciamento de bicicletas para o IPL para a cadeira de Prog. I
 
 # Resumo:
 Programa em C para gerir uso de bicicletas entre os campi do IPL.
