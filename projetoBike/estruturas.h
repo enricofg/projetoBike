@@ -2,27 +2,51 @@
 #define ESTRUTURAS_H_INCLUDED
 
 #include "constantes.h"
+#include "declaracoes_funcoes.h"
 
-typedef struct
-{
-    char modelo[MAX_STRING]; //elétrica
-    char nome[MAX_STRING]; //O usuário dar um nome a bike
-    int id;     //único e gerado automático
-    int status; //1-disponível, 2-emprestada, 3-avariada
-    int campus; //1-campus1, 2-campus2, 5-campus5, 3-residencia
-} tipoBike;
+typedef struct{
+	int dia;
+	int mes;
+	int ano;
+	int hora;
+	int minuto;
+}tipoData;
 
-typedef struct
-{
-    int id;    //único e gerado automático
-    char nome;
+typedef struct{
+    char designacao[MAXSTRING];///ID inserido pelo usuario
+    char modelo[MAXSTRING];
+    char estado[MAXESTADO];  ///disponivel, emprestada, avariada
+    char campus[MAXSTRING];  ///residencias, campus 1, campus 2, campus 5
+    int quantidadeEmprestimos;
+    int quantidadeAvarias;
+    float distanciaTotal;
+}tipoBicicleta;
+
+typedef struct{
+    int numero;
+    char nome[MAXSTRING];
     int telemovel;
-    int tipo;   //1-estudante, 2-docente, 3-técnico administrativo ou 4-convidado
-} tipoUser;
+    char tipo[MAXSTRING]; ///estudante docente tecnico administrativo convidado
+    int quantidadeEmprestimos;
+    float distanciaPercorrida;
+}tipoUtente;
 
-typedef struct
-{
-    int campos;
-} tipoEmprestimo;
+typedef struct{
+    int numeroRegisto;
+    int codigoUtente;
+    char designacaoBicicleta[MAXSTRING];
+    tipoData dataEmprestimo;
+    char campusOrigem[MAXSTRING];
+    char campusDestino[MAXSTRING];
+    tipoData dataDevolucao;
+    float distanciaPercorrida;
+}tipoEmprestimo;
+
+typedef struct{
+    int codigoUtente;
+    tipoData dataRegistro; //tipoData dataEmprestimo;
+    char campusOrigem[MAXSTRING];
+    char campusDestino[MAXSTRING];
+}tipoEspera;
 
 #endif // ESTRUTURAS_H_INCLUDED

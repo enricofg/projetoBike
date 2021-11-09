@@ -1,8 +1,35 @@
 #ifndef CONSTANTES_H_INCLUDED
 #define CONSTANTES_H_INCLUDED
 
-#define BIKE 15
-#define USER 50
-#define MAX_STRING 30
+#define MAX 500
+#define MAXSTRING 100
+#define MAXESTADO 12
+#define MAXBICICLETA 15
+#define MAXEMPRESTIMO 100
+#define MAXUTENTE 50
+#define MAXTELEMOVEL 999999999
+#define MAXDISTANCIA 100000000
+#define MAXNUMEROUTENTE 9999999
+
+#define MIN 1
+#define MINTELEMOVEL 1
+
+#define DIAMAX 31
+#define MESMAX 12
+#define ANOMIN 1950
+#define ANOMAX 2050
+#define MAXNOME 50
+#define MAXHORAS 24
+#define MAXMINUTOS 59
+
+#define NUMMAX 10
+#define NUMMIN 0
+
+#define DIST_R_C1   1
+#define DIST_R_C2   2
+#define DIST_R_C5   3
+#define DIST_C1_C2  4
+#define DIST_C1_C5  5
+#define DIST_C2_C5  6
 
 #endif // CONSTANTES_H_INCLUDED

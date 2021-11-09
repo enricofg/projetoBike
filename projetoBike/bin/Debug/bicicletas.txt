@@ -1,0 +1,5 @@
+Designacao bicicleta: 1
+Distancia total percorrida: 10.000000
+Data da avaria: 02/02/2018	22:02
+Causa da avaria: estava frio, e congelou a correia
+-----------------------------------------------------
