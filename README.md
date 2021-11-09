@@ -1,7 +1,8 @@
 # projetoBike
 Sistema de gestão de bicicletas para o Instituto Politécnico de Leiria (IPL)
 
-![image](https://user-images.githubusercontent.com/25649121/140927641-94714679-5f47-4d4a-8094-d96f5c56853a.png)
+![image](https://user-images.githubusercontent.com/25649121/140927759-0bf2bc9e-d7c1-4271-b927-a2129edbcb18.png)
+
 
 # Resumo:
 Programa em C para gerir o uso de bicicletas entre os campi do IPL.
