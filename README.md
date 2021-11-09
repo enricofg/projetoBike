@@ -1,11 +1,11 @@
 # projetoBike
-Sistema de gerenciamento de bicicletas para o IPL para a cadeira de Prog. I
+Sistema de gestão de bicicletas para o Instituto Politécnico de Leiria (IPL)
 
 # Resumo:
-Programa em C para gerir uso de bicicletas entre os campi do IPL.
+Programa em C para gerir o uso de bicicletas entre os campi do IPL.
 Os campi referidos são: as Residências, os Campus 1, Campus 2 e Campus 5.
 Quando um usuário quiser efetuar o empréstimo de uma bicicleta, o mesmo 
-deverá indicar para qual campus tem intenção de ir e qual é seu campus atual.
+deverá indicar para qual campus tem a intenção de ir e qual é o seu campus atual.
 SE houver bicicletas disponíveis no campus atual, o empréstimo será efetuado.
 SE NÃO houver, o usuário entrará em uma fila de espera.
 APÓS chegar ao campus destino, o usuário devolve a bicicleta.
@@ -101,7 +101,7 @@ APÓS chegar ao campus destino, o usuário devolve a bicicleta.
 			7.1.c)Listar empréstimos por campus de origem e campus de origem com maior quantidade de empréstimos
 			7.1.d)Consultar quantidade usuários que usaram uma determinada bicicleta: consultar por ID de bike
 			
-			7.2)Listar todos os utentes por ordem de descrescente da quantidade de empréstimos efetuados;
+			7.2)Listar todos os utentes por ordem descrescente da quantidade de empréstimos efetuados;
 		--
 		
 	*Funcionalidades
@@ -109,7 +109,7 @@ APÓS chegar ao campus destino, o usuário devolve a bicicleta.
 		
 		
 # Possíveis funcionalidades adicionais
-	- Criação de senha (automaticamente gerada) para usuário, onde ele deve usá-la para identificar-se no momento de empréstimo
+	- Criação de password (automaticamente gerada) para usuário, onde ele deve usá-la para identificar-se no momento de empréstimo
 	
 		
 		
